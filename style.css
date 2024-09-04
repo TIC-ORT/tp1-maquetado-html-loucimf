@@ -74,8 +74,9 @@
 
 .imgParagraph {
     background-color: var(--text-secondary);
-    width: 50%;
-    margin-top: 1;
+    width: 12.5vw;
+    height: 1vh;
+    margin-top: 1vh;
 }
 
 #article {
@@ -84,6 +85,11 @@
     flex-direction: column;
     justify-content: center;
     margin-top: 10%;
+}
+
+#img {
+    display: flex;
+    justify-content: center;
 }
 
 #text {
@@ -97,6 +103,8 @@
 
 #headerImg {
     background-color: var(--header-ish);
+    height: 1.5vh;
+    width: 15vw;
 }
 
 #smallP {
