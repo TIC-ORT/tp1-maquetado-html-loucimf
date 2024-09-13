@@ -90,6 +90,7 @@
     height: 100%;
     width: 10%;
     background-color: var(--text-primary);
+    margin-right: 5%;
 }
 
 .whiteBox {
@@ -153,3 +154,79 @@
     width: 40%;
 }
 
+.highlightRow {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+#secondHighlight {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#thirdHighlight {
+    height: 20%;
+    width: 25%;
+    margin: 5%;
+    margin-bottom: -2.5%;
+}
+
+.whiteSpace {
+    width: 87vw;
+    height: 100%;
+    background-color: var(--image-placeholder-bg);
+    display: flex;
+    justify-content: center;
+}
+
+.bottomWhiteBox {
+    background-color: white;
+    width: 15%;
+    height: 20%;
+}
+
+.bottomBox {
+    width: 20%;
+    height: 100%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+#short {
+    margin-bottom: 0;
+}
+
+#short1 {
+    margin-bottom: 0;
+    width: 50%;
+}
+
+.organize {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.property {
+    width: 100%;
+    height: 15%;
+}
+
+.greyBox {
+    width: 40%;
+    height: 5%;
+    background-color: var(--header-ish);
+}
+
+.bigBlackBox {
+    height: 100%;
+    width: 9.5%;
+    background-color: var(--header-ish);
+    margin-left: 5%;
+    margin-top: 5%;
+}
