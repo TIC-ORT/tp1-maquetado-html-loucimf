@@ -3,7 +3,7 @@
     --head-footer-bg: #8FD3DF;
     --sidebar-bg: #CCE4E8;
     --text-primary: #3A3A3A;
-    --text-secondary: #707070;
+    --text-secondary: #7b7979;
     --highlight: #68B7C4;
     --image-placeholder-bg: #D9D9D9;
     --grey-ish: #B0B0B0;
@@ -46,6 +46,10 @@
     background-color: var(--grey-ish);
 }
 
+.box {
+    height: 10%;
+}
+
 #topDiv {
     width: 97.5%;
     display: flex;
@@ -59,10 +63,13 @@
     align-items: center;
 }
 
-#headerHighlight {
+.headerHighlight {
     height: 100%;
     width: 13%;
     background-color: var(--highlight);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #centerLeft {
@@ -74,9 +81,42 @@
 
 .imgParagraph {
     background-color: var(--text-secondary);
-    width: 12.5vw;
-    height: 1vh;
+    width: 67.5%;
+    height: 0.5vh;
     margin-top: 1vh;
+}
+
+.blackBox {
+    height: 100%;
+    width: 10%;
+    background-color: var(--text-primary);
+}
+
+.whiteBox {
+    height: 100%;
+    width: 50%;
+    background-color: white ;
+}
+
+.row {
+    height: 10%;
+    width: 100%;
+}
+
+.inputBox {
+    height: 10%;
+    width: 50%;
+    background-color: var(--background-main);
+    margin: 5%;
+}
+
+#bottomInput {
+    background-color: var(--text-primary);
+    width: 35%;
+}
+
+#topInput {
+    margin-top: 20%;
 }
 
 #article {
@@ -90,6 +130,7 @@
 #img {
     display: flex;
     justify-content: center;
+    margin-right: 1.2vw;
 }
 
 #text {
@@ -103,10 +144,12 @@
 
 #headerImg {
     background-color: var(--header-ish);
-    height: 1.5vh;
+    height: 2vh;
     width: 15vw;
+    margin-top: 0.7vh;
 }
 
 #smallP {
     width: 40%;
 }
+
