@@ -166,10 +166,10 @@
 }
 
 #thirdHighlight {
-    height: 20%;
+    height: 100%;
     width: 25%;
     margin: 5%;
-    margin-bottom: 0;
+    margin-bottom: 5%;
 }
 
 .whiteSpace {
@@ -225,9 +225,12 @@
     height: 15%;
 }
 
-.property2 {
-    width: 60%;
-    height: 100%;
+.property3 {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
 }
 
 #boxThing {
@@ -249,7 +252,7 @@
     width: 9.5%;
     background-color: var(--header-ish);
     margin-left: 5%;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 
 #line1 {
@@ -273,6 +276,27 @@
     margin-bottom: 3%;
 }
 
+#line4 {
+    height: 5%;
+    width: 100%;
+    background-color: var(--grey-ish);
+    margin-bottom: 3%;
+}
+
+#line5 {
+    height: 15%;
+    width: 100%;
+    background-color: var(--header-ish);
+    margin-bottom: 3%;
+}
+
+#line6 {
+    height: 5%;
+    width: 70%;
+    background-color: var(--grey-ish);
+    margin-bottom: 3%;
+}
+
 .abc {
     width: 50%;
     height: 100%;
@@ -280,4 +304,12 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.infoBox {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
