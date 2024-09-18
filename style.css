@@ -212,10 +212,31 @@
     align-items: center;
 }
 
+.organize2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .property {
     width: 100%;
     height: 15%;
 }
+
+.property2 {
+    width: 60%;
+    height: 100%;
+}
+
+#boxThing {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2.5%;
+
+}
+
 
 .greyBox {
     width: 40%;
@@ -228,5 +249,35 @@
     width: 9.5%;
     background-color: var(--header-ish);
     margin-left: 5%;
-    margin-top: 2.5%;
+    margin-right: 3%;
+}
+
+#line1 {
+    height: 20%;
+    width: 100%;
+    background-color: var(--grey-ish);
+    margin-bottom: 3%;
+}
+
+#line2 {
+    height: 20%;
+    width: 70%;
+    background-color: var(--grey-ish);
+    margin-bottom: 3%;
+}
+
+#line3 {
+    height: 50%;
+    width: 100%;
+    background-color: var(--grey-ish);
+    margin-bottom: 3%;
+}
+
+.abc {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
